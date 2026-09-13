@@ -1,0 +1,20 @@
+# Telethon session (личная авторизация — никогда не коммитить)
+session.session
+session.session-journal
+*.session
+*.session-journal
+
+# Личный список каналов (используйте channels.example.txt как шаблон)
+channels.txt
+
+# Временные файлы скрипта
+.tmp_query.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Секреты
+.env
